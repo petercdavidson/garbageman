@@ -626,7 +626,7 @@ var set = squiffy.set;
 
 
 squiffy.story.start = 'Restart';
-squiffy.story.id = '045d7d67bb';
+squiffy.story.id = '98978c5ee3';
 squiffy.story.sections = {
 	'': {
 		'clear': true,
@@ -635,8 +635,13 @@ squiffy.story.sections = {
 		},
 	},
 	'Restart': {
-		'text': "<p>Garbage Man</p>\n<p>by <a href=\"https://petercdavidson.com\">Peter C. Davidson</a>.</p>\n<p>Ported from the <a href=\"http://www.ticalc.org/archives/files/fileinfo/470/47006.html\">2009 original</a> for the TI-83/84 Plus.</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Play\" role=\"link\" tabindex=\"0\">Play</a></p>",
+		'text': "<p>Garbage Man</p>\n<p>by <a href=\"https://petercdavidson.com\">Peter C. Davidson</a></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Play\" role=\"link\" tabindex=\"0\">Play</a></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Info\" role=\"link\" tabindex=\"0\">Info</a></p>",
 		'attributes': ["flash=0","gun=0"],
+		'passages': {
+		},
+	},
+	'Info': {
+		'text': "<p>Become a garbage man in this thrilling text-based adventure featuring infuriating one-mistake-and-you-die gameplay that will keep you coming back for more, at least for about 30 minutes. There might even be a sequel?!</p>\n<p>Garbage Man was created by Peter C. Davidson in 2009 and published to the web in 2018.</p>\n<p>Ported from the <a href=\"http://www.ticalc.org/archives/files/fileinfo/470/47006.html\">2009 original</a> for the TI-83/84 Plus.</p>\n<p>Follow @garbagemangame: <a href=\"http://instagram.com/garbagemangame\">Instagram</a> and <a href=\"http://twitter.com/garbagemangame\">Twitter</a></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Restart\" role=\"link\" tabindex=\"0\">Back</a></p>",
 		'passages': {
 		},
 	},
